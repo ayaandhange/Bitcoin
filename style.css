@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 1230px;
+    background-color: #0D0D2B;
+    background-position: center;
+    background-size: cover;
+    padding: 2% 4%;
+}
+.top{
+    width: 50px;
+    color: #fff;
+    font-size: x-large;
+    text-decoration: solid;
+    cursor: pointer;
+    text-align: left;   
+}
+nav{
+    display: flex;
+    padding: 2%6px;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav-links ul li{
+    color: #fff;
+    list-style: none;
+    display: inline-block;
+    padding: 2px 15px;
+    position: relative;
+    transition: 0.5s;
+}
+.nav-links ul li a{   
+    color:#fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li:hover{
+    transform: translate(-1px,-1px);
+ }
+ .nav-links ul li:hover::after{
+     transform: translate(-1px,-1px);
+ }
+.nav-links ul li a button{
+    background-color:#166af2f4;
+    cursor: pointer;
+    color: #fff;
+    border: solid#166af2f4;
+    font-weight: bold;
+    width: 75px;
+    height: 30px;
+    border-radius: 35px;
+    transition: 0.4s;
+}
+.nav-links ul li a button:hover{
+    transform: translate(-2px,-2px);
+ }
+ .nav-links ul li a button:hover::after{
+     transform: translate(-2px,-2px);
+ }
+.text-box{
+    width: 90%;
+    font-weight: bold;
+    top: 120px;
+    text-decoration: solid;
+    color: #fff;
+    position: absolute;
+    text-align: left;
+}
+.text-box h1{
+   font-size: 80px;
+}
+.text-box p{
+    margin: 30px 0 0;
+    font-size: 15px;
+}
+.text-box button{
+        margin: 30px 0 0;
+        background-color: #166af2f4;
+        cursor: pointer;
+        color: #fff;
+        border: solid #166af2f4;
+        font-weight: bold;
+        text-decoration: solid;
+        font-size: 23px;
+        width: 200px;
+        height: 50px;
+        border-radius: 50px;
+        transition: 0.4s;
+}
+.text-box button:hover{
+   transform: translate(-3px,-3px);
+}
+.text-box button:hover::after{
+    transform: translate(-3px,-3px);
+}    
+.Bitcoin {
+    margin-top: 8px;
+    margin-left: 650px;
+}
+.line {
+   width: 40%;
+   float: left;
+   margin-left: -100px;
+   margin-right: 50px;
+   padding: -100px;
+}
+.line img{
+    width: 800px;
+    height: 500px;
+}
+
+.Capro {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 220px;
+    background-color:  #0D0D2B;
+    background-position: center;
+    background-size: cover;
+    padding: 4% 7%;
+    color: #fff;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+.Capro-col{
+    margin-left: 30px;
+}
+.Capro img{
+    width: 55px;
+    height: 55px;
+}
+.layer{
+    float: right;
+    font-size: 18px;
+    text-align: left;
+    padding: 0 15px;
+    text-decoration: solid;
+}
+/*content*/
+
+.content{
+    width: 100%;
+    height: 700px;
+    background-color:  #0D0D2B;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 4% 7%;
+}
+.content img{
+    width: 500px;
+    height: 300px;
+}
+.text{
+    float: right;
+    text-align: left;
+    padding: 4px 15px;
+    text-decoration: solid;
+}
+.text h1{
+    font-size: 37px;
+    font-weight: bold;
+}
+.text p{
+    padding-top: 35px;
+}
+
+.text a button{
+    margin: 30px 0 0;
+    background-color: #166af2f4;
+    cursor: pointer;
+    color: #fff;
+    border: solid #166af2f4;
+    font-weight: bold;
+    text-decoration: solid;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.text a button:hover{
+    transform: translate(-3px,-3px);
+ }
+ .text a button:hover::after{
+     transform: translate(-3px,-3px);
+ }
+
+/*trade securely*/
+
+.trade{
+    padding-top: 150px;
+  text-align: center;
+  font-size: large;
+}
+.trade h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.trade h1 p{
+    padding-top: 30px;
+}
+
+
+
+
+
